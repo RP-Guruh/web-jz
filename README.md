@@ -1,2 +1,2 @@
 # web-jz
-web jz project
+personal web jz project
