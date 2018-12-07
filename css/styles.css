@@ -138,7 +138,6 @@ p {
   (max-width : 1028px) {
   .anime-image {
     position  : static;
-    transform : rotate(0deg);
   }
 
   #title {
@@ -163,6 +162,10 @@ p {
 #footer {
   padding    : 7% 15%;
   text-align : center;
+}
+
+.tengahin{
+  text-align: center;
 }
 
 .social-icon {
