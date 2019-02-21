@@ -19,6 +19,9 @@
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400:900|Ubuntu" rel="stylesheet">
 
+  <!-- Animate pn scoll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
@@ -73,7 +76,7 @@
   <!-- Features -->
 
   <section id="features">
-    <div class="row">
+    <div data-aos="fade-up" class="row">
 
       <div class="featured-box col-lg-4">
         <i class="fas icon fa-check-circle fa-4x"></i>
@@ -156,7 +159,8 @@
     <p>Jadwal dan kelas JZ</p>
 
   </div>
-    <div class="row">
+    <div  data-aos="fade-up"
+    data-aos-anchor-placement="top-center" class="row">
 
       <!-- <div class="card-deck"> -->
 
@@ -235,6 +239,11 @@
     <p>© Copyright 2018 JZ Unindra</p>
 
   </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init();
+</script>
 
 </body>
 
