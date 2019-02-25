@@ -2,7 +2,7 @@
 personal web jz project
 
 ## TO-DO
-- **RESPONSIVEt**: Make mobile first responsive
+- **Responsive**: Make mobile first responsive
 
 - **Eye candy**: Need More Fluid And seamless animation, and more resources
 
