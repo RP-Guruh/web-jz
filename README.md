@@ -6,6 +6,6 @@ personal web jz project
 
 - **Eye candy**: Need More Fluid And seamless animation, and more resources
 
--**Simplyfy**: Fix dan simplify Class Name
+- **Simplyfy**: Fix dan simplify Class Name
 
 > **Note**: Work In Progress
