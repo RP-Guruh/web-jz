@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #title {
-  padding-bottom   : 91px;
+  height: 400px;
   color            : #fff;
   background-color : #ff4c68;
 }
@@ -9,6 +13,12 @@ body {
   font-family : "Montserrat";
   font-weight : 400;
 }
+
+a {
+  font-weight: bold;
+  color: black;
+}
+
 
 h1 {
   font-family : "Montserrat";
@@ -160,8 +170,11 @@ p {
 }
 
 #footer {
-  padding    : 7% 15%;
-  text-align : center;
+ padding    : 7% 15%;
+ text-align : center;
+ color            : black;
+ background-color : #ef8172;
+ font-weight: bold;
 }
 
 .tengahin{
@@ -170,4 +183,11 @@ p {
 
 .social-icon {
   margin : 20px 10px;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
