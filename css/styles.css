@@ -1,185 +1,126 @@
-html {
-    scroll-behavior: smooth;
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html, body
+{
+    height: 100%;
+}
+#Header
+{
+    width: 960px;
+    height: 150px;
+}
+#Content
+{
+    height: 100%;
+    width: 960px;
 }
 
-#title {
-    height: 400px;
+body {
+  /* padding-top: 3rem;
+  padding-bottom: 3rem; */
+  color: #5a5a5a;
+}
+
+#start {
+    height: 100%;
     color: #fff;
     background-color: #ff4c68;
 }
 
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 
-body {
-    font-weight: 400;
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
 }
 
-a {
-    font-weight: bold;
-    color: black;
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
 }
 
 
-h1,
-h2,
-h3,
-body {
-    font-family: "Montserrat";
-    font-weight: bold;
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
 }
 
-h1 {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    line-height: 1.5;
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-h2 {
-    font-size: 3rem;
-    line-height: 1.5;
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
 
-p {
-    color: #8f8f8f;
-}
-
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
-/* nav bar */
-
-.navbar {
-    padding: 0 0 4.5rem;
-}
-
-.nav-item {
-    padding: 0 16px;
-}
-
-.navbar-brand {
-    font-family: ubuntu;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.nav {
-    font-size: 1.2rem;
-    font-weight: lighter;
-}
-
-#features {
-    z-index: 1;
-    position: relative;
-    padding: 7% 15%;
-    background-color: #fff;
-}
-
-.featured-box {
-    padding: 5%;
-    text-align: center;
-}
-
-.icon {
-    margin-bottom: 1rem;
-    color: #ef8172;
-}
-
-.icon:hover {
-    color: #ff4c68;
-}
-
-#testimonials {
-    color: #fff;
-    background-color: #ef8172;
-    text-align: center;
-}
-
-.testimonial-text {
-    margin: 0 15% 0;
-}
-
-.testi-image {
-    width: 10%;
-    margin: 20px;
-    border-radius: 100%;
-}
-
-.logoJZ {
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-
-#press {
-    padding-bottom: 2%;
-    background-color: #ef8172;
-    text-align: center;
-}
-
-.carosel-item {
-    padding: 7% 15%;
-}
-
-#kelas {
-    padding: 100px;
-}
-
-.kelas-kolom {
-    padding: 3% 2%;
-    text-align: center;
-}
-
-#footer {
-    padding: 7% 15%;
-    text-align: center;
-    color: black;
-    background-color: #ef8172;
-    font-weight: bold;
-}
-
-.toCenter {
-    text-align: center;
-}
-
-.social-icon {
-    margin: 20px 10px;
-}
-
-.back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
 
-/*BREAKPOINT*/
-@media (max-width : 1080px) {
+/* RESPONSIVE CSS
+-------------------------------------------------- */
 
-    #title {
-        padding-bottom: 0;
-        padding-left: 5%;
-        height: 250px;
-        text-align: left;
-    }
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
 
-    .container-fluid {
-        padding-bottom: 0;
-    }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
 
-    .navbar-brand {
-        font-family: ubuntu;
-        font-size: 2.5rem;
-        font-weight: bold;
-        float: right;
-    }
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
 
-    .logoJZ {
-        width: 10%;
-        position: absolute;
-        top: 5px;
-        left: 2px;
-        margin: 20px 20px 50px;
-    }
-
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
