@@ -129,6 +129,7 @@ p {
 }
 
 #footer {
+    margin-top: 20px; 
     padding: 7% 15%;
     text-align: center;
     color: black;
@@ -149,6 +150,12 @@ p {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+.copyright {
+    padding-top: 10px;
+     font-weight: bold;
+     color: black;
 }
 
 
