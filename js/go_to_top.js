@@ -14,7 +14,7 @@
             }, 800);
             return false;
         });
-        
+
         $('#back-to-top').tooltip('show');
 
 });
