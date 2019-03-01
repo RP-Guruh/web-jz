@@ -10,7 +10,6 @@ html {
 
 
 body {
-  font-family : "Montserrat";
   font-weight : 400;
 }
 
@@ -20,23 +19,20 @@ a {
 }
 
 
+h1, h2, h3, body {
+      font-family : "Montserrat";
+      font-weight : bold;
+}
+
 h1 {
-  font-family : "Montserrat";
   font-size   : 2.5rem;
   font-weight : bolder;
   line-height : 1.5;
 }
 
 h2 {
-  font-family : "Montserrat";
   font-size   : 3rem;
-  font-weight : bold;
   line-height : 1.5;
-}
-
-h3 {
-  font-family : Montserrat;
-  font-weight : bold;
 }
 
 p {
@@ -66,17 +62,6 @@ p {
 .nav {
   font-size   : 1.2rem;
   font-weight : lighter;
-}
-
-.Download-button {
-  margin : 5% 3% 5% 0;
-}
-
-.anime-image {
-  position : absolute;
-  top      : 25%;
-  left     : 25%;
-  width    : 95%;
 }
 
 #features {
@@ -127,23 +112,45 @@ p {
   text-align       : center;
 }
 
-#price {
-  background-color : blue;
-}
-
 .carosel-item {
   padding : 7% 15%;
 }
 
-#pricing {
+#kelas {
   padding : 100px;
 }
 
-.pricing-kolom {
+.kelas-kolom {
   padding    : 3% 2%;
   text-align : center;
 }
 
+#footer {
+ padding    : 7% 15%;
+ text-align : center;
+ color            : black;
+ background-color : #ef8172;
+ font-weight: bold;
+}
+
+.toCenter{
+  text-align: center;
+}
+
+.social-icon {
+  margin : 20px 10px;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+/*BREAKPOINT*/
 @media
   (max-width : 1028px) {
   .anime-image {
@@ -158,36 +165,4 @@ p {
   .container-fluid {
     padding-bottom : 0;
   }
-}
-
-#cta {
-  padding          : 7% 15px;
-  color            : #fff;
-  background-color : #ff4c68;
-  text-align       : center;
-  font-family      : Montserrat;
-  font-weight      : bolder;
-}
-
-#footer {
- padding    : 7% 15%;
- text-align : center;
- color            : black;
- background-color : #ef8172;
- font-weight: bold;
-}
-
-.tengahin{
-  text-align: center;
-}
-
-.social-icon {
-  margin : 20px 10px;
-}
-
-.back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
 }
