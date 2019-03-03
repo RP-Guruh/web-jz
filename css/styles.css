@@ -6,7 +6,7 @@
  height: 100vh;
  color: #fff;
  background-color: #ff4c68;
- background-image: url(/images/etc/pat.svg);
+ background-image: url(./images/etc/pat.svg);
  background-position: bottom;
  background-repeat: repeat-x;
  background-size: contain;
