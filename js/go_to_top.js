@@ -1,9 +1,14 @@
   $(document).ready(function(){
+    
+    $("#back-to-top").hide();
+     
      $(window).scroll(function () {
+            $("#back-to-top").show();
             if ($(this).scrollTop() > 50) {
-                $('#back-to-top').fadeIn();
+                $('#back-to-top').fadeIn('slow');
             } else {
-                $('#back-to-top').fadeOut();
+                $("#back-to-top").hide();
+                $('#back-to-top').fadeOut('slow');
             }
         });
         // scroll body to 0px on click
@@ -18,3 +23,8 @@
         $('#back-to-top').tooltip('show');
 
 });
+
+
+
+
+
